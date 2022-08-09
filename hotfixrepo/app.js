@@ -20,6 +20,7 @@ function refreshButton() {
 
 function allUser() {
     $.get('https://jsonplaceholder.typicode.com/users', getObj)
+    toggleBlock(btn)
 }
 
 function createDiv(obj) {
